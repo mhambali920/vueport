@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Noto+Sans:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-6  text-white font-semibold focus:outline-none focus:ring-2 focus:ring-amber-600 focus:ring-opacity-75;
+    background: linear-gradient(180deg, #fabf12 0%, #fb992d 100%);
+    box-shadow: -3px 5px 10px rgba(251, 153, 45, 0.4);
+    border-radius: 50px;
+    transition: 2s ease;
+  }
+  .btn-primary:hover {
+    background: linear-gradient(150deg, #fb992d 0%, #fabf12 100%);
+    box-shadow: 3px -5px 10px rgba(251, 153, 45, 0.4);
+  }
+}
