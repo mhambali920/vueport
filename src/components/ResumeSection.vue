@@ -16,10 +16,51 @@
       <button class="btn-primary my-8">Download Resume</button>
     </div>
     <!-- slider -->
-    <div class="flex flex-col md:flex-row justify-between w-full">
-      <div class="w-80 h-[400px] bg-white shadow-xl">card satu</div>
-      <div class="w-80 h-[400px] bg-white shadow-xl">card satu</div>
-      <div class="w-80 h-[400px] bg-white shadow-xl">card satu</div>
+    <div
+      class="flex flex-col md:flex-row items-center gap-20 justify-between w-full mt-8"
+    >
+      <div
+        class="w-full md:w-1/3 rounded-lg max-w-md bg-white px-4 py-8 shadow-xl"
+      >
+        <div class="flex justify-center">
+          <div
+            class="w-28 h-28 relative left-3 rounded-full bg-primary-100 flex items-center justify-center text-white text-4xl font-medium font-sans"
+          >
+            Ui
+          </div>
+          <div
+            class="w-28 h-28 relative -left-3 rounded-full bg-primary-500 flex items-center justify-center text-white text-4xl font-medium font-sans"
+          >
+            UX
+          </div>
+        </div>
+        <h2 class="text-center font-noto font-semibold my-6">UI/UX</h2>
+        <p class="text-center font-light">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          vero enim a animi culpa itaque eligendi quidem, adipisci.
+        </p>
+      </div>
+      <div
+        class="w-full md:w-1/3 rounded-lg max-w-md bg-white px-4 py-8 shadow-xl"
+      >
+        <img src="@/assets/img/smile.png" alt="" class="w-28 h-28 mx-auto" />
+        <h2 class="text-center font-noto font-semibold my-6">Desaign</h2>
+        <p class="text-center font-light">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          vero enim a animi culpa itaque eligendi quidem, adipisci.
+        </p>
+      </div>
+      <div
+        class="w-full md:w-1/3 rounded-lg max-w-md bg-white px-4 py-8 shadow-xl"
+      >
+        <img src="@/assets/svg/code.svg" alt="" class="w-28 h-28 mx-auto" />
+        <h2 class="text-center font-noto font-semibold my-6">Developer</h2>
+        <p class="text-center font-light">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          vero enim a animi culpa itaque eligendi quidem, adipisci.
+        </p>
+      </div>
     </div>
   </section>
 </template>
+<script></script>
