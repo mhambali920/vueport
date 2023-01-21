@@ -5,9 +5,9 @@ const open = ref(false);
 const header = ref(null);
 const handleScroll = () => {
   if (window.scrollY > 50) {
-    header.value.classList.add("shadow-lg", "shadow-amber-200");
+    header.value.classList.add("shadow-lg", "shadow-amber-100");
   } else {
-    header.value.classList.remove("shadow-lg", "shadow-amber-200");
+    header.value.classList.remove("shadow-lg", "shadow-amber-100");
   }
 };
 

@@ -61,6 +61,10 @@
         </p>
       </div>
     </div>
+    <div class="w-full flex justify-center items-center my-16">
+      <span class="bg-primary-100 w-[120px] h-[3px]"></span>
+      <span class="bg-primary-500 w-[120px] h-[4px]"></span>
+      <span class="bg-primary-100 w-[120px] h-[3px]"></span>
+    </div>
   </section>
 </template>
-<script></script>

@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from "vue";
-import TextTyperVue from "./utils/TextTyper.vue";
+import TextTyper from "./utils/TextTyper.vue";
 
 const text = ref("");
 const index = ref(0);
@@ -26,7 +26,7 @@ setInterval(() => {
   >
     <div class="flex md:w-1/2 flex-col gap-10">
       <h1 class="text-6xl">Hi! I Am</h1>
-      <TextTyperVue
+      <TextTyper
         text="Muhammad Hambali"
         typeInterval="150"
         class="text-6xl text-primary-400"
